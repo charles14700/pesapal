@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(183, 135, 228);
+    height: 4rem;
+    border-bottom-left-radius:8px ;
+    border-bottom-right-radius: 8px;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    margin-top:5px ;
+}
+
+.links ul{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    top: 15px;
+    right: 20px;
+}
+.links ul li{
+    list-style: none;
+}
+.products{
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    margin-top: 5rem;
+    
+}
